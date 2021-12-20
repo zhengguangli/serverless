@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Serverless',
+  title: 'know',
   tagline: 'Dinosaurs are cool',
   url: 'https://know.icopy.wang',
   baseUrl: '/',
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/zhengguangli/serverless/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/zhengguangli/serverless/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Servlerless',
+        title: 'Serverless',
         logo: {
-          alt: 'Servlerless Blog Logo',
+          alt: 'Serverless Blog Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -106,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Servlerless Blog, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Serverless Blog, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
